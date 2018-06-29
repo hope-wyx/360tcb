@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function fgx(str=""){
+				
+				console.log(str+"========================");
+			};
+		
+			fgx("for....in与for....of");
+			{
+				let str="abcdef";
+				for (let o in str) {
+					console.log("o:",o,"str[0]:",str[o]);
+				}
+				fgx();
+				for(let ob of str){
+					console.log("ob:",ob);
+				}	
+			}
+			
+		</script>
+		
+	</body>
+</html>
